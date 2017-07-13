@@ -15,13 +15,10 @@ cache:
   - "$HOME/.cache"
 addons:
   apt:
-    sources:
-    - sourceline: 'ppa:ubuntu-wine/ppa'
     packages:
     - libgnome-keyring-dev
     - icnsutils
     - xvfb
-    - wine1.8
 before_install:
 - mkdir -p /tmp/git-lfs && curl -L https://github.com/github/git-lfs/releases/download/v1.2.1/git-lfs-$([
   "$TRAVIS_OS_NAME" == "linux" ] && echo "linux" || echo "darwin")-amd64-1.2.1.tar.gz
