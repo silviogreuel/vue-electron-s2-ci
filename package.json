@@ -1,6 +1,6 @@
 {
   "name": "vue-s2-ci",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Silvio Greuel <silviogreuel@gmail.com>",
   "description": "An electron-vue project",
   "license": null,
